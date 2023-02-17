@@ -1,0 +1,39 @@
+
+body {
+    background: #F4F3FF;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+div{
+    border-style:solid;
+    border-width: 2px;
+}
+
+
+
+.cajaazul{
+    border-color:#C9C9FF;
+    background-color:#e7e7ff;
+}
+
+.cajaazul p{
+    margin-top:0px;
+    color: white;
+    background-color: #c9c9ff;
+    padding:5px;
+}
+
+#cajaverde{
+    border-color:#afe293;
+    background-color:#ceffcf;
+}
+
+#cajaverde p{
+    margin-top:0px;
+    color: white;
+    background-color: #afe293;
+    padding:5px;
+}

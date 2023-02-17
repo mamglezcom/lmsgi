@@ -1,0 +1,11 @@
+body{
+		background: url(img/img_tree.png) #8bb5d7 no-repeat fixed;
+	 	margin-left: 0px; margin-top: 0px;
+	}
+div{
+	margin-left: 18%;
+	 background-color: #c0dbe7;
+	}
+h1, p{
+	padding: 10px;
+}

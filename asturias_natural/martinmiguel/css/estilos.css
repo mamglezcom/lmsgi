@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url(../imagenes_video/asturias.jpg) top no-repeat fixed;
+}
+header{
+	position: fixed;
+	width: 100%;
+}
+header ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+#nav{
+	position: absolute;
+    top: 2px;
+	display: inline-block;
+}
+nav{
+	width: 100%;
+	height: 87px;
+	background-color: grey;
+}
+nav ul{
+	margin: 30px;
+	font-size: 25px;
+}
+nav img{
+	width: 5%;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	margin: 20px;
+}
+nav a:hover{
+	color: greenyellow;
+	text-decoration: overline;
+	text-decoration-style: dotted;
+}
+#entrada{
+	width: 100%;
+	height: 400px;
+	font-size: 130px;
+	color: white;
+	text-align: center;
+	padding-top: 16%;
+}
+#entrada p{
+	text-shadow: 12px 10px 5px #1c1a19;
+}
+article{
+	color: black;
+	background-color: white;
+
+}
+article p{
+	margin-bottom: 10px;
+}
+section td{
+	width: 50%;
+	padding: 30px;
+	color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 17px;
+	text-align: justify;
+}
+section td img{
+	width: 100%;
+}
+aside{
+	position: fixed;
+	top: 30%;
+	left: 5px;
+	width: 70px;
+	float: left;
+	position: fixed;
+	height: 200px;
+	z-index: 999;
+}
+footer{
+	width: 100%;
+	margin: auto;
+	height: 100px;
+	color: white;
+	background-color: grey;
+	text-align: center;
+	padding: 30px;
+}

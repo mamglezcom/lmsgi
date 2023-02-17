@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practica 4 tablas</title>
+	<style type="text/css">
+		table{
+			margin-left: auto;
+			margin-right: auto;
+			border:  1px solid black;
+			width: 350px;
+			text-align: center;
+		}
+		th{
+			border: 1px solid black;
+		}
+		td{
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>My table caption</caption>
+		<thead>
+			<tr>
+				<th colspan="2" rowspan="2"></th>
+				<th rowspan="2">Columna 1</th>
+				<th colspan="2">Columna 2</th>
+			</tr>
+			<tr>
+				<th>Columna 2a</th>
+				<th>Columna 2b</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan="2">Row 1</th>
+				<th>Row 1a</th>
+				<td>123</td>
+				<td>456</td>
+				<td>7889</td>
+			</tr>
+			<tr>
+				<th>Row 1b</th>
+				<td>123</td>
+				<td>456</td>
+				<td>7889</td>
+			</tr>
+			<th colspan="2">Row 2</th>
+			<td>123</td>
+			<td>456</td>
+			<td>789</td>
+		</tbody>
+	</table>
+
+</body>
+</html>

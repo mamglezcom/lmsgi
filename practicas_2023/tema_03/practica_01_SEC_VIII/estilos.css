@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	width: 96%;
+	height: 80px;
+	padding: 0% 2%;
+	background-color: antiquewhite;
+	text-align: center;
+	border: 1px solid #b1b1b1;
+}
+.header h1{
+	font: bold 25px Georgia, sans-serif;
+	padding: 2%;
+}
+.nav{
+	width: 96%;
+	height: 50px;
+	padding: 0% 2%;
+	background-color: #c5badb;
+	text-align: center;
+}
+.nav ul{
+	padding: 1% 2%;
+
+}
+.nav li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+	font: bold 15px Verdana, sans-serif;
+}
+.seccion{
+	width: 60%;
+	float: left;
+}
+.seccion article{
+	width: 100%;
+	margin: 20px;
+	background-color: antiquewhite;
+	border: 1px solid #b1b1b1;
+}
+.seccion h1,h3,p,figure{
+	text-align: center;
+}
+.seccion h1{
+	font: bold 20px Verdana, sans-serif;
+	margin-top: 10px;
+}
+.seccion h3{
+	font: bold 15px Verdana, sans-serif;
+}
+time{
+	color: lightgrey;
+}
+.seccion footer p{
+	text-align: right;
+	margin: 10px;
+}
+.aside{
+	width: 30%;
+	margin: 20px;
+	height: 70px;
+	float: right;
+	background-color: #c5badb;
+}
+.aside p{
+	padding: 7px 0px;
+	text-align: center;
+	font: bold 12px Verdana, sans-serif;
+}
+.footer{
+	width: 96%;
+	border-top: 2px solid grey;
+	padding: 10px;
+}
+.clear{
+	clear: both;
+}

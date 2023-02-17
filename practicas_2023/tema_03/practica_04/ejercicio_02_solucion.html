@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Ejercicio 2</title>
+    <style> 
+      table {margin-left: auto; 
+         margin-right: auto; 
+         margin-top: 100px;
+         border: 10px solid black; 
+         width: 650px;
+         height: 350px;
+         text-align: center;
+         border-collapse: collapse} 
+      
+      td { border: 1px solid black;width: 100px ; 
+   }
+      th {
+      border: 1px solid black ;width: 10% ;
+      }
+      
+
+</style> 
+</head>
+  <body>
+    <table>
+      <caption>A Hierarchical table <strong>NOT</strong> WCAG 2.0</caption>
+      <tbody>
+        <tr>
+          <th colspan="2" rowspan="2">Col a</th>
+          <th colspan="2">Col b</th>
+          <th colspan="2">Col c</th>
+        </tr>
+        <tr>
+          <th>Col b-a</th>
+          <th>Col b-b</th>
+          <th>Col c-a</th>
+          <th>Col c-b</th>
+        </tr>
+        <tr>
+          <th rowspan="2">Row 1</th>
+          <th>Row 1-1</th>
+          <td>Cell b-a-1</td>
+          <td>Cell b-b-1</td>
+          <td>Cell c-a-1</td>
+          <td>Cell c-b-1</td>
+        </tr>
+        <tr>
+          <th>Row 1-2</th>
+          <td>Cell b-a-1-2</td>
+          <td>Cell b-b-1-2</td>
+          <td>Cell c-a-1-2</td>
+          <td>Cell c-b-1-2</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Row 2</th>
+          <th>Row 2-1</th>
+          <td>Cell b-a-2-1</td>
+          <td>Cell b-b-2-1</td>
+          <td>Cell c-a-2-1</td>
+          <td>Cell c-b-2-1</td>
+        </tr>
+        <tr>
+          <th>Row 2-2</th>
+          <td>Cell b-a-2-2</td>
+          <td>Cell b-b-2-2</td>
+          <td>Cell c-a-2-2</td>
+          <td>Cell c-b-2-2</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </body>
+</html>

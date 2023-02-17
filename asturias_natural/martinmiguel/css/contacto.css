@@ -1,0 +1,40 @@
+#formulario{
+	width: 80%;
+	margin: auto;
+	padding: 30px;
+}
+#formulario input:not([type="radio"]), select{
+	display: block;
+	margin: 20px;
+	padding: 10px;
+}
+#formulario textarea{
+	display: block;
+}
+form{
+	width: 40%;
+	margin: auto;
+	padding: 30px;
+	background-color: lightgray;
+	border-radius: 20px;
+}
+fieldset{
+	padding: 30px;
+	border-radius: 10px;
+}
+fieldset div{
+	margin: 30px;
+}
+label, p{
+	font-size: 1.5em;
+}
+[name="enviar"]{
+	width: 90%;
+	margin: auto;
+	color: blueviolet;
+	font-size: 1.5em;
+}
+legend{
+	font-size: 1.5em;
+	margin: auto;
+}

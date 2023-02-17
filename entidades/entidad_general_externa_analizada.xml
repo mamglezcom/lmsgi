@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE libro [
+<!ENTITY capitulo1 SYSTEM "capitulo1.xml">
+]>
+<libro>
+&capitulo1;
+</libro>
