@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Historia</title>
+  <title>Contacto</title>
   <meta charset="utf-8">
   <meta name="description" content="Este es un documento HTML5">
   <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -36,32 +36,51 @@
       <section id="articulosprincipales">
         <article>
           <form name="contacto" method="post" action="enviado.html">
-            <fieldset>Datos personales
-              <label for="nombre">Nombre</label>
-              <input type="text" name="nombre" id="nombre" minlength="3" maxlength="60" placeholder="tu nombre...">
-              <input type="text" name="apellidos">
+            <fieldset>
+              <fieldset>
+              <legend>Datos personales</legend>
+              <label for="nombre">Nombre*</label>
+              <input type="text" name="nombre" id="nombre" minlength="3" maxlength="60" placeholder="tu nombre..." required autofocus>
+              <label for="apellidos">Apellidos*</label>
+              <input type="text" name="apellidos" id="apellidos" required>
+              <label for="telefono">Telefono</label>
               <input type="tel" name="telefono">
-              <input type="number" name="edad" min="13" max="100">
-              <input type="date" name="nacimiento">
-              <input type="email" name="email">
+              <label for="edad">Edad</label>
+              <input type="number" name="edad" min="13" max="100" id="edad">
+              <label for="nacimiento">Fecha Nacimiento</label>
+              <input type="date" name="nacimiento" id="nacimiento">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+              <label>Mayor de edad</label>
+              <span>Si</span>
+              <input type="radio" name="mayoredad" value="si">
+              <span>No</span>
+              <input type="radio" name="mayoredad" value="no">
+              <label for="image">Genero</label>
+              <select name="genero" id="genero">
+                <option value="h">Hombre</option>
+                <option value="m">Mujer</option>
+              </select>
+              </fieldset>
+              <fieldset>
+                <legend>Intereses</legend>
               <label for="viajes">Viajes</label>
               <input type="checkbox" name="viajes" value="1" id="viajes">
               <label for="cine">Cine</label>
               <input type="checkbox" name="cine" value="2" id="cine">
               <label for="naturaleza">Naturaleza</label>
               <input type="checkbox" name="naturaleza" value="3" id="naturaleza">
-              <input type="radio" name="mayoredad" value="si">
-              <input type="radio" name="mayoredad" value="no">
-              <input type="file" name="archivo">
-              <input type="image" name="imagen">
-              <select>
-                <option>Hombre</option>
-                <option>Mujer</option>
-              </select>
+              </fieldset>
+              <fieldset>
+              <legend>Documentacion relevante</legend>
+              <label for="file">Adjunta archivo</label>
+              <input type="file" name="archivo" id="file">
+              
+              </fieldset>
             </fieldset>
-            <textarea>textarea</textarea>
-            <button>enviar</button>
-            <input type="submit" value="Enviar">
+            <label for="comentario">Comentario</label>
+            <textarea cols="71" rows="10" id="comentario">textarea</textarea>
+            <input type="image" name="imagen" id="imagen" src="../img/botonenviar.png">
           </form>
         </article>
       </section>

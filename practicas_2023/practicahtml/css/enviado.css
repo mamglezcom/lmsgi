@@ -1,0 +1,10 @@
+article div{
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/fondoparapente.png);
+	background-position: center center;
+}
+article div p{
+	color: grey;
+	font: 25px Georgia, sans-serif;
+}
