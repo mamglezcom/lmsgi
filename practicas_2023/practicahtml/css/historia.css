@@ -1,0 +1,16 @@
+.imgfloatDe{
+	float: right;
+	width: 200px;
+	margin: 10px;
+}
+.imgfloatIz{
+	float: left;
+	width: 200px;
+	margin: 10px 10px 10px 0px;
+}
+abbr{
+	color: slategrey;
+}
+p{
+	padding: 10px 10px 10px 0px;
+}

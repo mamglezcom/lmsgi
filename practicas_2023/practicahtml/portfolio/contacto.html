@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Historia</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Este es un documento HTML5">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="../css/historia.css">
+  <link rel="stylesheet" type="text/css" href="../css/contacto.css">
+</head>
+<body>
+  <header id="cabeceralogo">
+    <div>
+      <h1>DESCUBRE EL PARAPENTE</h1>
+    </div>
+  </header>
+  <nav id="menuprincipal">
+    <div>
+      <ul id="listamenu">
+        <li><a href="../index.html">Destacados</a></li>
+        <li><a href="galeria.html">Galería</a>
+          <!--<ul>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="vacaciones.html">Vacaciones</a></li>
+          </ul>-->
+        </li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <div>
+      <section id="articulosprincipales">
+        <article>
+          <form name="contacto" method="post" action="enviado.html">
+            <fieldset>Datos personales
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre" minlength="3" maxlength="60" placeholder="tu nombre...">
+              <input type="text" name="apellidos">
+              <input type="tel" name="telefono">
+              <input type="number" name="edad" min="13" max="100">
+              <input type="date" name="nacimiento">
+              <input type="email" name="email">
+              <label for="viajes">Viajes</label>
+              <input type="checkbox" name="viajes" value="1" id="viajes">
+              <label for="cine">Cine</label>
+              <input type="checkbox" name="cine" value="2" id="cine">
+              <label for="naturaleza">Naturaleza</label>
+              <input type="checkbox" name="naturaleza" value="3" id="naturaleza">
+              <input type="radio" name="mayoredad" value="si">
+              <input type="radio" name="mayoredad" value="no">
+              <input type="file" name="archivo">
+              <input type="image" name="imagen">
+              <select>
+                <option>Hombre</option>
+                <option>Mujer</option>
+              </select>
+            </fieldset>
+            <textarea>textarea</textarea>
+            <button>enviar</button>
+            <input type="submit" value="Enviar">
+          </form>
+        </article>
+      </section>
+      <aside id="infoadicional">
+        <h1>Enlaces de interés</h1>
+        <p><a href="">Practica en Asturias</a></p>
+        <p><a href="">Parapente en España</a></p>
+        <p><a href="">Practica en Asturias</a></p>
+        <p><a href="">Parapente en España</a></p>
+      </aside>
+      <aside class="social">
+        <div><a href="http://facebook.com" target="_blank"><img src="../img/facebook.png" alt="facebook"></a></div>
+        <div><a href="http://flickr.com" target="_blank"><img src="../img/flickr.png" alt="flickr"></a></div>
+        <div><a href="http://twitter.com" target="_blank"><img src="../img/twitter.png" alt="twitter"></a></div>
+        <div><a href="http://vimeo.com" target="_blank"><img src="../img/vimeo.png" alt="vimeo"></a></div>
+      </aside>
+      <div class="recuperar"></div>
+    </div>
+  </main>
+  <footer id="pielogo">
+    <div>
+      <section class="seccionpie">
+        <h1>Sitio Web</h1>
+        <p><a href="index.html">Principal</a></p>
+        <p><a href="fotos.html">Fotos</a></p>
+        <p><a href="videos.html">Videos</a></p>
+      </section>
+      <section class="seccionpie">
+        <h1>Ayuda</h1>
+        <p><a href="contacto.html">Contacto</a></p>
+      </section>
+      <section class="seccionpie">
+        <address>Toronto, Canada</address>
+        <small>&copy; Derechos Reservados 2016</small>
+      </section>
+      <div class="recuperar"></div>
+    </div>
+  </footer>
+</body>
+</html>
